@@ -1,6 +1,6 @@
 from flask import Flask
 abi=Flask(__name__)
-@abi.route('/index.html')
+@abi.route('/')
 def a():
     return("hello world")
 if __name__ == "__main__":
